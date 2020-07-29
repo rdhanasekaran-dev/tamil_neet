@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:src="@drawable/app_logo"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:fontFamily="@font/asul"
+            android:gravity="center"
+            android:text="Welcome to"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+        <TextView
+            android:fontFamily="@font/asul"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="Tamil neet"/>
+        <TextView
+            android:fontFamily="@font/asul"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="#d0d0d0"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="கற்க கசடறக் கற்பவை கற்றபின்\n நிற்க அதற்குத் தக"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginRight="50dp"
+            android:elevation="0dp"
+            android:layout_marginBottom="10dp"
+            app:cardElevation="8dp"
+            android:layout_marginLeft="50dp">
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    app:boxBackgroundColor="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    app:boxBackgroundMode="none"
+                    android:hint="Email">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/email_edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/asul"
+                        app:backgroundTint="#e0e0e0"
+                        android:inputType="text"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:passwordToggleEnabled="true"
+                    android:background="#FFFFFF"
+                    app:boxBackgroundColor="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    app:boxBackgroundMode="none"
+                    android:hint="Password">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        app:backgroundTint="#e0e0e0"
+                        android:id="@+id/password_edit_text"
+                        android:fontFamily="@font/asul"
+                        android:inputType="textPassword"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:theme="@style/Widget.MaterialComponents.Button"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="20dp"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"/>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:fontFamily="@font/asul"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textColor="#404040"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:text="Don't have an account? "/>
+            <TextView
+                android:id="@+id/signup"
+                android:fontFamily="@font/asul"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textColor="#00aaaa"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:text="signup "/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

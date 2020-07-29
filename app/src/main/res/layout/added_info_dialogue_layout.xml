@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:elevation="8dp"
+    app:cardElevation="8dp"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="340dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:text="துணை தகவல்"
+            android:gravity="center_vertical"
+            android:textColor="#000000"
+            android:textSize="14sp"/>
+        <EditText
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:elevation="2dp"
+            android:id="@+id/et_content"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:background="#eeFFFF"
+            android:gravity="start"
+            android:hint=""
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:maxLines="10"
+            android:padding="10dp"
+            android:textColor="#000" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="* நீங்கள் வழங்கும் எந்த தகவலும் சிக்கலை விரைவாக தீர்க்க எங்களுக்கு உதவுகிறது"
+            android:gravity="center_vertical"
+            android:textColor="#000000"
+            android:textSize="10sp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_toLeftOf="@id/ok"
+                android:id="@+id/cancel"
+                android:layout_marginTop="10dp"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:text="ரத்து"
+                android:textAllCaps="false"
+                android:textSize="14sp"/>
+            <Button
+                android:layout_alignParentRight="true"
+                android:id="@+id/ok"
+                android:theme="@style/Widget.MaterialComponents.Button"
+                android:layout_marginTop="10dp"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:text="சரி"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="false"
+                android:textSize="14sp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

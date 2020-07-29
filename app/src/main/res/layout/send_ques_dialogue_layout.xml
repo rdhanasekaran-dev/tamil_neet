@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:elevation="8dp"
+    app:cardElevation="8dp"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:text="உங்கள் கேள்வி"
+            android:gravity="center_vertical"
+            android:textColor="#000000"
+            android:textSize="14sp"/>
+        <EditText
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:elevation="2dp"
+            android:id="@+id/et_content"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:background="#eeFFFF"
+            android:gravity="start"
+            android:hint="Question..."
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:maxLines="10"
+            android:padding="10dp"
+            android:textColor="#000" />
+        <EditText
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:elevation="2dp"
+            android:id="@+id/opt1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#eeFFFF"
+            android:gravity="start"
+            android:hint="option1..."
+            android:inputType="text"
+            android:lines="5"
+            android:maxLines="10"
+            android:padding="10dp"
+            android:textColor="#000" />
+        <EditText
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:elevation="2dp"
+            android:id="@+id/opt2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#eeFFFF"
+            android:gravity="start"
+            android:hint="option2..."
+            android:inputType="text"
+            android:lines="5"
+            android:maxLines="10"
+            android:padding="10dp"
+            android:textColor="#000" />
+        <EditText
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:elevation="2dp"
+            android:id="@+id/opt3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#eeFFFF"
+            android:gravity="start"
+            android:hint="option3..."
+            android:inputType="text"
+            android:lines="5"
+            android:maxLines="10"
+            android:padding="10dp"
+            android:textColor="#000" />
+
+        <EditText
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:elevation="2dp"
+            android:id="@+id/opt4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#eeFFFF"
+            android:gravity="start"
+            android:hint="option4..."
+            android:inputType="text"
+            android:lines="5"
+            android:maxLines="10"
+            android:padding="10dp"
+            android:textColor="#000" />
+        <EditText
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:elevation="2dp"
+            android:id="@+id/ans"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#eeeeee"
+            android:gravity="start"
+            android:hint="answer..."
+            android:inputType="text"
+            android:lines="5"
+            android:maxLines="10"
+            android:padding="10dp"
+            android:textColor="#000" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_alignParentRight="true"
+                android:id="@+id/show_result"
+                android:theme="@style/Widget.MaterialComponents.Button"
+                android:layout_marginTop="10dp"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:text="அனுப்பு"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="false"
+                android:textSize="14sp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "694220712741",
+    "firebase_url": "https://neet-tamil-7320c.firebaseio.com",
+    "project_id": "neet-tamil-7320c",
+    "storage_bucket": "neet-tamil-7320c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694220712741:android:4dfc2fd990a824e65cc8cc",
+        "android_client_info": {
+          "package_name": "com.dogood.tamilneet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694220712741-ujhss812tb1f4uln7oh440j1p7is102n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dogood.tamilneet",
+            "certificate_hash": "59648cc4c873fc55ef480be4d7738d1e80599dfb"
+          }
+        },
+        {
+          "client_id": "694220712741-hblutbn9ll45ni83gb36n4ttetaun3og.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3KZzW0Ib70JjMrkhQRNKvWYSVpGZ7xa0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694220712741-hblutbn9ll45ni83gb36n4ttetaun3og.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

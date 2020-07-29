@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dogood.tamilneet">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PrivacyPolicyActivity"></activity>
+        <activity android:name=".importantLinks.LinksSubjectActivity" />
+        <activity android:name=".importantLinks.LinksShowActivity" />
+        <activity android:name=".importantLinks.ImportantLinksActivity" />
+        <activity android:name=".practice.PracticeActivity" />
+        <activity android:name=".testFile.BiologySeletActivity" />
+        <activity android:name=".testFile.PhysicsSelectActivity" />
+        <activity android:name=".testFile.ChemistrySelectActivity" />
+        <activity android:name=".testFile.CommonTestActivity" />
+        <activity android:name=".testFile.TodaysTestActivity" />
+        <activity android:name=".dailytest.DailyTestActivity" />
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".dailytest.DailyTestIntroActivity" />
+        <activity android:name=".chat.NewQuestionActivity" />
+        <activity android:name=".chat.ExamDoubtActivity" />
+        <activity android:name=".chat.ChatActivity" />
+        <activity android:name=".test.TestResultActivity" />
+        <activity android:name=".syllabus.BiologySyllabus" />
+        <activity android:name=".syllabus.ChemistrySyllabus" />
+        <activity android:name=".syllabus.PhysicsSyllabus" />
+        <activity android:name=".WebViewActivity" />
+        <activity android:name=".BiologyMaterial" />
+        <activity android:name=".ChemistryMaterial" />
+        <activity android:name=".PhysicsMaterial" />
+        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+    </application>
+
+</manifest>

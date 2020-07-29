@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="குறிப்புகள்"
+        android:id="@+id/bottomNavigationGroupMenuId"
+        android:icon="@drawable/ic_action_material"/>
+    <item android:title="செயல்திறன்"
+        android:id="@+id/bottomNavigationStatusMenuId"
+        android:icon="@drawable/ic_action_acheivements"/>
+    <item android:title="பகிர்"
+        android:id="@+id/bottomNavigationSocialMenuId"
+        android:icon="@drawable/ic_action_chat"/>
+    <item android:title="சுயவிவரங்கள்"
+        android:id="@+id/bottomNavigationProfileMenuId"
+        android:icon="@drawable/ic_action_profile"/>
+</menu>

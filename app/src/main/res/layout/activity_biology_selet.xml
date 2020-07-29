@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".testFile.BiologySeletActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="#FFFFaa">
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_action_back_arr"/>
+            <TextView
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="back"
+                android:gravity="center_vertical"
+                android:paddingLeft="0dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:fontFamily="@font/asul"
+                />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/title1"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="உயிரியல்"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:fontFamily="@font/asul"
+            />
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="340dp"
+        android:layout_height="360dp"
+        android:layout_centerInParent="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/title2"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="கேள்விகளின் எண்ணிக்கையைத் தேர்ந்தெடுக்கவும்"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:textSize="11sp"
+                android:textColor="#000000"
+                android:fontFamily="@font/asul"
+                />
+            <RadioGroup
+                android:layout_marginTop="10dp"
+                android:id="@+id/bs_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true">
+                <RadioButton
+                    android:id="@+id/bs_radio_button1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:fontFamily="@font/asul"
+                    android:text="15 கேள்விகள்"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000" />
+                <RadioButton
+                    android:id="@+id/bs_radio_button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:fontFamily="@font/asul"
+                    android:text="30 கேள்விகள்"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000" />
+                <RadioButton
+                    android:id="@+id/bs_radio_button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:fontFamily="@font/asul"
+                    android:text="50 கேள்விகள்"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000" />
+                <RadioButton
+                    android:id="@+id/bs_radio_button4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:fontFamily="@font/asul"
+                    android:text="100 கேள்விகள்"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000" />
+                <RadioButton
+                    android:id="@+id/bs_radio_button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:fontFamily="@font/asul"
+                    android:text="150 கேள்விகள்"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000" />
+            </RadioGroup>
+            <Button
+                android:id="@+id/start"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:theme="@style/Widget.MaterialComponents.Button"
+                android:layout_marginLeft="75dp"
+                android:layout_marginRight="75dp"
+                android:layout_marginTop="10dp"
+                android:text="தொடங்கு"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.gms.ads.AdView
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/bisadView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

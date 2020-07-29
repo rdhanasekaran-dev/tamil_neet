@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".importantLinks.ImportantLinksActivity">
+    <TextView
+        android:paddingLeft="15dp"
+        android:id="@+id/tops"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="முக்கிய இணைப்புகள்"
+        android:gravity="center"
+        android:layout_marginTop="0dp"
+        android:textColor="#000000"
+        android:textSize="14sp"/>
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:layout_below="@id/tops"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:background="@drawable/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:paddingBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:background="#e0e0e0"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:background="#FFFFFF"
+                android:paddingLeft="15dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="குறிப்பு இணைப்புகள்"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:textSize="14sp"/>
+            <TextView
+                android:background="#FFFFFF"
+                android:paddingLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="வெவ்வேறு ஆசிரியர்கள் மற்றும் வெவ்வேறு தளங்களிலிருந்து வெவ்வேறு குறிப்புகள் இணைப்புகள்"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:textSize="14sp"/>
+            <Button
+                android:layout_gravity="right"
+                android:id="@+id/l_material_links"
+                android:theme="@style/Widget.MaterialComponents.Button"
+                android:layout_marginTop="15dp"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:text="செல்"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="false"
+                android:textSize="14sp"/>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:background="#e0e0e0"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        <TextView
+            android:background="#FFFFFF"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="மாதிரி கேள்வி இணைப்புகள்"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="14sp"/>
+        <TextView
+            android:background="#FFFFFF"
+            android:paddingLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="வெவ்வேறு ஆசிரியர்கள் மற்றும் வெவ்வேறு தளங்களிலிருந்து வெவ்வேறு கேள்விகள் இணைப்புகள்"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="14sp"/>
+        <Button
+            android:layout_gravity="right"
+            android:id="@+id/l_QuestionPaper_links"
+            android:theme="@style/Widget.MaterialComponents.Button"
+            android:layout_marginTop="15dp"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:text="செல்"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:textSize="14sp"/>
+
+
+    </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:background="#e0e0e0"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:background="#FFFFFF"
+                    android:paddingLeft="15dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="கேள்வி பகுப்பாய்வு"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp"/>
+                <TextView
+                    android:background="#FFFFFF"
+                    android:paddingLeft="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="வெவ்வேறு ஆசிரியர்கள் மற்றும் வெவ்வேறு தளங்களிலிருந்து வெவ்வேறு கேள்வி பகுப்பாய்வு இணைப்புகள்"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp"/>
+                <Button
+                    android:layout_gravity="right"
+                    android:id="@+id/l_question_analyze_links"
+                    android:theme="@style/Widget.MaterialComponents.Button"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="10dp"
+                    android:text="செல்"
+                    android:textColor="#FFFFFF"
+                    android:textAllCaps="false"
+                    android:textSize="14sp"/>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:background="#e0e0e0"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:background="#FFFFFF"
+                    android:paddingLeft="15dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="காணொளி இணைப்புகள்"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp"/>
+                <TextView
+                    android:background="#FFFFFF"
+                    android:paddingLeft="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="முந்தைய ஆண்டு வெற்றி மாணவர்களிடமிருந்து உந்துதல் மற்றும் தயாரிப்பதற்கான வெவ்வேறு வீடியோக்கள்"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp"/>
+                <Button
+                    android:layout_gravity="right"
+                    android:id="@+id/l_video_links"
+                    android:theme="@style/Widget.MaterialComponents.Button"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="10dp"
+                    android:text="செல்"
+                    android:textColor="#FFFFFF"
+                    android:textAllCaps="false"
+                    android:textSize="14sp"/>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+                <com.google.android.gms.ads.AdView
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center_horizontal"
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/iladView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+                </com.google.android.gms.ads.AdView>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</RelativeLayout>

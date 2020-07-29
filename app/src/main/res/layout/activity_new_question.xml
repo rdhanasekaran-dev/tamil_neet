@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    tools:context=".chat.NewQuestionActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_centerInParent="true"
+        android:elevation="8dp"
+        app:cardElevation="8dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="15dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+                android:text="உங்கள் கேள்வியை எழுதுங்கள்"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:textSize="14sp"/>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/subject"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                app:boxBackgroundColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                app:boxBackgroundMode="none"
+                android:hint="பாடம்">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_text_subject"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/asul"
+                    app:backgroundTint="#e0e0e0"
+                    android:inputType="text"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/question"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:layout_marginTop="20dp"
+                app:boxBackgroundColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                app:boxBackgroundMode="none"
+                android:hint="கேள்வி">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_text_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/asul"
+                    android:textSize="14sp"
+                    app:backgroundTint="#e0e0e0"
+                    android:inputType="textMultiLine"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/option1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                app:boxBackgroundColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                app:boxBackgroundMode="none"
+                android:hint="விருப்பம் 1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_text_option1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/asul"
+                    android:textSize="14sp"
+                    app:backgroundTint="#e0e0e0"
+                    android:inputType="text"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/option2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                app:boxBackgroundColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                app:boxBackgroundMode="none"
+                android:hint="விருப்பம் 2">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_text_option2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/asul"
+                    app:backgroundTint="#e0e0e0"
+                    android:textSize="14sp"
+                    android:inputType="text"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/option3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                app:boxBackgroundColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                app:boxBackgroundMode="none"
+                android:hint="விருப்பம் 3">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_text_option3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/asul"
+                    android:textSize="14sp"
+                    app:backgroundTint="#e0e0e0"
+                    android:inputType="text"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/option4"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                app:boxBackgroundColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                app:boxBackgroundMode="none"
+                android:hint="விருப்பம் 4">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_text_option4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/asul"
+                    android:textSize="14sp"
+                    app:backgroundTint="#e0e0e0"
+                    android:inputType="text"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/answer"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                app:boxBackgroundColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                app:boxBackgroundMode="none"
+                android:hint="பதில்">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_text_answer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/asul"
+                    android:textSize="14sp"
+                    app:backgroundTint="#e0e0e0"
+                    android:inputType="text"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/send_new_question"
+                    android:theme="@style/Widget.MaterialComponents.Button"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="5dp"
+                    android:text="அனுப்பு"
+                    android:textColor="#FFFFFF"
+                    android:textAllCaps="false"
+                    android:textSize="14sp"/>
+            </RelativeLayout>
+        </LinearLayout>
+        </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.gms.ads.AdView
+        android:layout_gravity="center_horizontal"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/nqmadView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>
