@@ -55,13 +55,19 @@ class PracticeActivity : AppCompatActivity() {
 
 
 
-        MobileAds.initialize(this,"ca-app-pub-3940256099942544/6300978111")
+        MobileAds.initialize(this,"ca-app-pub-5918143946387420/9122388030")
         val prsadview=findViewById(R.id.prsadView) as AdView
         val adRequest= AdRequest.Builder().build()
         prsadview.loadAd(adRequest)
 
+
+        MobileAds.initialize(this,"ca-app-pub-5918143946387420/2263952752")
+        val prs1adview=findViewById(R.id.pr1sadView) as AdView
+        val ad1Request= AdRequest.Builder().build()
+        prs1adview.loadAd(ad1Request)
+
         mInterstitialAd = InterstitialAd(this)
-        mInterstitialAd.adUnitId = "ca-app-pub-3940256099942544/1033173712"
+        mInterstitialAd.adUnitId = "ca-app-pub-5918143946387420/3193891048"
         mInterstitialAd.loadAd(AdRequest.Builder().build())
 
         mInterstitialAd.adListener=object : AdListener(){

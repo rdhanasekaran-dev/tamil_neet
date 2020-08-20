@@ -50,7 +50,7 @@ class ProfileFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val view=inflater.inflate(R.layout.fragment_profile, container, false)
 
-        MobileAds.initialize(context,"ca-app-pub-3940256099942544/6300978111")
+        MobileAds.initialize(context,"ca-app-pub-5918143946387420/3460542407")
         val pfadview=view.findViewById(R.id.pfadView) as AdView
         val pfadRequest= AdRequest.Builder().build()
         pfadview.loadAd(pfadRequest)

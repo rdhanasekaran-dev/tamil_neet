@@ -31,7 +31,7 @@ class ExamDoubtActivity : AppCompatActivity() {
         setContentView(R.layout.activity_exam_doubt)
 
 
-        MobileAds.initialize(this,"ca-app-pub-3940256099942544/6300978111")
+        MobileAds.initialize(this,"ca-app-pub-5918143946387420/1218464399")
         val edmadview=findViewById(R.id.edmadView) as AdView
         val edadrequest= AdRequest.Builder().build()
         edmadview.loadAd(edadrequest)

@@ -84,6 +84,17 @@
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
+                <com.google.android.gms.ads.AdView
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center_horizontal"
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/il1adView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-5918143946387420/8632978037">
+                </com.google.android.gms.ads.AdView>
         <androidx.cardview.widget.CardView
             android:background="#e0e0e0"
             android:orientation="vertical"
@@ -133,6 +144,17 @@
 
     </LinearLayout>
         </androidx.cardview.widget.CardView>
+
+                <com.google.android.gms.ads.AdView
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center_horizontal"
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/il2adView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-5918143946387420/8632978037">
+                </com.google.android.gms.ads.AdView>
         <androidx.cardview.widget.CardView
             android:background="#e0e0e0"
             android:orientation="vertical"
@@ -182,6 +204,17 @@
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
+
+                <com.google.android.gms.ads.AdView
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center_horizontal"
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/il3adView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-5918143946387420/8632978037">
+                </com.google.android.gms.ads.AdView>
         <androidx.cardview.widget.CardView
             android:background="#e0e0e0"
             android:orientation="vertical"
@@ -235,11 +268,11 @@
                     android:layout_marginBottom="10dp"
                     android:layout_gravity="center_horizontal"
                     xmlns:ads="http://schemas.android.com/apk/res-auto"
-                    android:id="@+id/iladView"
+                    android:id="@+id/il4adView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     ads:adSize="BANNER"
-                    ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+                    ads:adUnitId="ca-app-pub-5918143946387420/8632978037">
                 </com.google.android.gms.ads.AdView>
             </LinearLayout>
         </ScrollView>

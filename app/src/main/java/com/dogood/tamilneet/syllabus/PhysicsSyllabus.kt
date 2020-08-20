@@ -39,7 +39,7 @@ class PhysicsSyllabus : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_physics_syllabus)
 
-        MobileAds.initialize(this,"ca-app-pub-3940256099942544/6300978111")
+        MobileAds.initialize(this,"ca-app-pub-5918143946387420/2326589980")
         val ps2adview=findViewById(R.id.ps2adView) as AdView
         val ad2request= AdRequest.Builder().build()
         ps2adview.loadAd(ad2request)
@@ -47,7 +47,7 @@ class PhysicsSyllabus : AppCompatActivity() {
         val back=findViewById(R.id.back) as LinearLayout
 
         mInterstitialAd = InterstitialAd(this)
-        mInterstitialAd.adUnitId = "ca-app-pub-3940256099942544/1033173712"
+        mInterstitialAd.adUnitId = "ca-app-pub-5918143946387420/6812629905"
         mInterstitialAd.loadAd(AdRequest.Builder().build())
 
         mInterstitialAd.adListener=object : AdListener(){

@@ -9,7 +9,6 @@ import android.view.View
 import android.widget.*
 import com.dogood.tamilneet.HomeActivity
 import com.dogood.tamilneet.R
-import com.dogood.tamilneet.dailytest.Report
 import com.dogood.tamilneet.model.QuestionData
 import com.dogood.tamilneet.test.Performance
 import com.dogood.tamilneet.test.TestResultActivity
@@ -78,13 +77,19 @@ class TodaysTestActivity : AppCompatActivity() {
         t_disliked_list= arrayListOf()
 
 
-        MobileAds.initialize(this,"ca-app-pub-3940256099942544/6300978111")
+        MobileAds.initialize(this,"ca-app-pub-5918143946387420/4130626248")
         val ttadview=findViewById(R.id.ttadView) as AdView
         val adRequest= AdRequest.Builder().build()
         ttadview.loadAd(adRequest)
 
+
+        MobileAds.initialize(this,"ca-app-pub-5918143946387420/5934662504")
+        val tttadview=findViewById(R.id.tttadView) as AdView
+        val adRequestt= AdRequest.Builder().build()
+        tttadview.loadAd(adRequestt)
+
         mInterstitialAd = InterstitialAd(this)
-        mInterstitialAd.adUnitId = "ca-app-pub-3940256099942544/1033173712"
+        mInterstitialAd.adUnitId = "ca-app-pub-5918143946387420/7222148854"
         mInterstitialAd.loadAd(AdRequest.Builder().build())
 
         mInterstitialAd.adListener=object : AdListener(){

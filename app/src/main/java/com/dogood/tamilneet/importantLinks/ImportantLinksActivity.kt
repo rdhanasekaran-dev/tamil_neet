@@ -23,10 +23,22 @@ class ImportantLinksActivity : AppCompatActivity() {
         setContentView(R.layout.activity_important_links)
 
 
-        MobileAds.initialize(this,"ca-app-pub-3940256099942544/6300978111")
-        val iladview=findViewById(R.id.iladView) as AdView
-        val adrequest= AdRequest.Builder().build()
-        iladview.loadAd(adrequest)
+        MobileAds.initialize(this,"ca-app-pub-5918143946387420/8632978037")
+        val il1adview=findViewById(R.id.il1adView) as AdView
+        val ad1request= AdRequest.Builder().build()
+        il1adview.loadAd(ad1request)
+
+        val il2adview=findViewById(R.id.il2adView) as AdView
+        val ad2request= AdRequest.Builder().build()
+        il2adview.loadAd(ad2request)
+
+        val il3adview=findViewById(R.id.il3adView) as AdView
+        val ad3request= AdRequest.Builder().build()
+        il3adview.loadAd(ad3request)
+
+        val il4adview=findViewById(R.id.il4adView) as AdView
+        val ad4request= AdRequest.Builder().build()
+        il4adview.loadAd(ad4request)
 
         val material_links=findViewById(R.id.l_material_links) as Button
         material_links.setOnClickListener {

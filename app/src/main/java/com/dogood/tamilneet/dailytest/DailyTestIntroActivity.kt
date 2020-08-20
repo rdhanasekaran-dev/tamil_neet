@@ -15,7 +15,7 @@ class DailyTestIntroActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_daily_test_intro)
 
-        MobileAds.initialize(this,"ca-app-pub-3940256099942544/6300978111")
+        MobileAds.initialize(this,"ca-app-pub-5918143946387420/3418635210")
         val dtadview=findViewById(R.id.dtadView) as AdView
         val adrequest= AdRequest.Builder().build()
         dtadview.loadAd(adrequest)
@@ -23,7 +23,7 @@ class DailyTestIntroActivity : AppCompatActivity() {
 
 
         mInterstitialAd = InterstitialAd(this)
-        mInterstitialAd.adUnitId = "ca-app-pub-3940256099942544/1033173712"
+        mInterstitialAd.adUnitId = "ca-app-pub-5918143946387420/9026185110"
         mInterstitialAd.loadAd(AdRequest.Builder().build())
 
         mInterstitialAd.adListener=object : AdListener(){

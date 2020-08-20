@@ -15,6 +15,17 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
+            <com.google.android.gms.ads.AdView
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center_horizontal"
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/pr1sadView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5918143946387420/2263952752">
+            </com.google.android.gms.ads.AdView>
             <TextView
                 android:id="@+id/p_question_no"
                 android:layout_marginTop="30dp"
@@ -172,7 +183,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+                ads:adUnitId="ca-app-pub-5918143946387420/9122388030">
             </com.google.android.gms.ads.AdView>
         </LinearLayout>
     </ScrollView>

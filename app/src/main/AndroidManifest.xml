@@ -9,31 +9,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PrivacyPolicyActivity"></activity>
-        <activity android:name=".importantLinks.LinksSubjectActivity" />
-        <activity android:name=".importantLinks.LinksShowActivity" />
-        <activity android:name=".importantLinks.ImportantLinksActivity" />
-        <activity android:name=".practice.PracticeActivity" />
-        <activity android:name=".testFile.BiologySeletActivity" />
-        <activity android:name=".testFile.PhysicsSelectActivity" />
-        <activity android:name=".testFile.ChemistrySelectActivity" />
-        <activity android:name=".testFile.CommonTestActivity" />
-        <activity android:name=".testFile.TodaysTestActivity" />
-        <activity android:name=".dailytest.DailyTestActivity" />
-        <activity android:name=".WelcomeActivity" />
-        <activity android:name=".dailytest.DailyTestIntroActivity" />
-        <activity android:name=".chat.NewQuestionActivity" />
-        <activity android:name=".chat.ExamDoubtActivity" />
-        <activity android:name=".chat.ChatActivity" />
-        <activity android:name=".test.TestResultActivity" />
-        <activity android:name=".syllabus.BiologySyllabus" />
-        <activity android:name=".syllabus.ChemistrySyllabus" />
-        <activity android:name=".syllabus.PhysicsSyllabus" />
-        <activity android:name=".WebViewActivity" />
-        <activity android:name=".BiologyMaterial" />
-        <activity android:name=".ChemistryMaterial" />
-        <activity android:name=".PhysicsMaterial" />
-        <activity android:name=".HomeActivity" />
+        <activity android:name=".PrivacyPolicyActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name=".importantLinks.LinksSubjectActivity" android:screenOrientation="portrait" />
+        <activity android:name=".importantLinks.LinksShowActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".importantLinks.ImportantLinksActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".practice.PracticeActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".testFile.BiologySeletActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".testFile.PhysicsSelectActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".testFile.ChemistrySelectActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".testFile.CommonTestActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".testFile.TodaysTestActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".WelcomeActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".dailytest.DailyTestIntroActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".chat.NewQuestionActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".chat.ExamDoubtActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".chat.ChatActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".test.TestResultActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".syllabus.BiologySyllabus" android:screenOrientation="portrait"/>
+        <activity android:name=".syllabus.ChemistrySyllabus" android:screenOrientation="portrait"/>
+        <activity android:name=".syllabus.PhysicsSyllabus" android:screenOrientation="portrait"/>
+        <activity android:name=".WebViewActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".BiologyMaterial" android:screenOrientation="portrait"/>
+        <activity android:name=".ChemistryMaterial" android:screenOrientation="portrait"/>
+        <activity android:name=".PhysicsMaterial" android:screenOrientation="portrait"/>
+        <activity android:name=".HomeActivity" android:screenOrientation="portrait"/>
         <activity
             android:name=".RegisterActivity"
             android:screenOrientation="portrait" />

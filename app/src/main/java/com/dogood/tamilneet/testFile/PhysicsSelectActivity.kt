@@ -1,6 +1,9 @@
 package com.dogood.tamilneet.testFile
 
+import android.content.Context
 import android.content.Intent
+import android.net.ConnectivityManager
+import android.net.NetworkInfo
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -25,7 +28,7 @@ class PhysicsSelectActivity : AppCompatActivity() {
 
 
 
-        MobileAds.initialize(this,"ca-app-pub-3940256099942544/6300978111")
+        MobileAds.initialize(this,"ca-app-pub-5918143946387420/6673971056")
         val phsadview=findViewById(R.id.phsadView) as AdView
         val adRequest= AdRequest.Builder().build()
         phsadview.loadAd(adRequest)
@@ -37,11 +40,22 @@ class PhysicsSelectActivity : AppCompatActivity() {
         })
 
         mInterstitialAd = InterstitialAd(this)
-        mInterstitialAd.adUnitId = "ca-app-pub-3940256099942544/1033173712"
+        mInterstitialAd.adUnitId = "ca-app-pub-5918143946387420/5881147025"
         mInterstitialAd.loadAd(AdRequest.Builder().build())
 
         mInterstitialAd.adListener=object : AdListener(){
             override fun onAdClosed() {
+                val i = Intent(applicationContext,CommonTestActivity::class.java)
+                i.putExtra("subject","physics")
+                i.putExtra("num",num_of_questions)
+                startActivity(i)
+                mInterstitialAd.loadAd(AdRequest.Builder().build())
+            }
+
+            override fun onAdLoaded() {
+
+                super.onAdLoaded()
+
                 val i = Intent(applicationContext,CommonTestActivity::class.java)
                 i.putExtra("subject","physics")
                 i.putExtra("num",num_of_questions)
@@ -55,7 +69,8 @@ class PhysicsSelectActivity : AppCompatActivity() {
             if(num_of_questions.equals("")){
                 Toast.makeText(applicationContext,"Choose number of questions",Toast.LENGTH_SHORT).show()
             }else {
-                showAd()
+                    showAd()
+
             }
         }
     }
@@ -66,7 +81,9 @@ class PhysicsSelectActivity : AppCompatActivity() {
         }else{
             val i = Intent(applicationContext,CommonTestActivity::class.java)
             i.putExtra("subject","physics")
+            i.putExtra("num",num_of_questions)
             startActivity(i)
+            mInterstitialAd.loadAd(AdRequest.Builder().build())
         }
     }
 }

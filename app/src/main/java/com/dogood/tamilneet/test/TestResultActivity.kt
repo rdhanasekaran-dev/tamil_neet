@@ -28,7 +28,7 @@ class TestResultActivity : AppCompatActivity() {
         setContentView(R.layout.activity_test_result)
 
 
-        MobileAds.initialize(this,"ca-app-pub-3940256099942544/6300978111")
+        MobileAds.initialize(this,"ca-app-pub-5918143946387420/7604458083")
         val tradview=findViewById(R.id.tradView) as AdView
         val adRequest= AdRequest.Builder().build()
         tradview.loadAd(adRequest)

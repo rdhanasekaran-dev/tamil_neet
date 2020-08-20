@@ -37,7 +37,7 @@ class ChemistryMaterial : AppCompatActivity() {
         setContentView(R.layout.activity_chemistry_material)
 
 
-        MobileAds.initialize(this,"ca-app-pub-3940256099942544/6300978111")
+        MobileAds.initialize(this,"ca-app-pub-5918143946387420/2604246998")
         val cmadview=findViewById(R.id.cmadView) as AdView
         val adrequest= AdRequest.Builder().build()
         cmadview.loadAd(adrequest)

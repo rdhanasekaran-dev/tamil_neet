@@ -34,7 +34,7 @@ class NewQuestionActivity : AppCompatActivity() {
         setContentView(R.layout.activity_new_question)
 
 
-        MobileAds.initialize(this,"ca-app-pub-3940256099942544/6300978111")
+        MobileAds.initialize(this,"ca-app-pub-5918143946387420/7181237513")
         val nqmadview=findViewById(R.id.nqmadView) as AdView
         val nqadrequest= AdRequest.Builder().build()
         nqmadview.loadAd(nqadrequest)

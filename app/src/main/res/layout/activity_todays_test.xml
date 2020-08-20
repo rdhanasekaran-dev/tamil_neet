@@ -501,6 +501,17 @@
                         android:textColor="#000000"
                         android:textSize="14sp"/>
                 </LinearLayout>
+                <com.google.android.gms.ads.AdView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center_horizontal"
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/tttadView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-5918143946387420/5934662504">
+                </com.google.android.gms.ads.AdView>
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -618,8 +629,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     ads:adSize="BANNER"
-                    ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+                    ads:adUnitId="ca-app-pub-5918143946387420/4130626248">
                 </com.google.android.gms.ads.AdView>
+
             </LinearLayout>
 
 

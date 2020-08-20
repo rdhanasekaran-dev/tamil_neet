@@ -38,7 +38,7 @@ class WebViewActivity : AppCompatActivity(),RewardedVideoAdListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_web_view)
 
-        MobileAds.initialize(this, "ca-app-pub-3940256099942544/6300978111")
+        MobileAds.initialize(this, "ca-app-pub-5918143946387420/8844838829")
         val wvadview = findViewById(R.id.wvadView) as AdView
         val adrequest = AdRequest.Builder().build()
         wvadview.loadAd(adrequest)
@@ -46,7 +46,7 @@ class WebViewActivity : AppCompatActivity(),RewardedVideoAdListener {
         progressBar=findViewById(R.id.progressBar)
 
         mInterstitialAd = InterstitialAd(this)
-        mInterstitialAd.adUnitId = "ca-app-pub-3940256099942544/1033173712"
+        mInterstitialAd.adUnitId = "ca-app-pub-5918143946387420/2270749667"
         mInterstitialAd.loadAd(AdRequest.Builder().build())
 
         mInterstitialAd.adListener=object : AdListener(){
@@ -60,7 +60,7 @@ class WebViewActivity : AppCompatActivity(),RewardedVideoAdListener {
 
         }
 
-        MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713")
+        MobileAds.initialize(this, "ca-app-pub-5918143946387420/4522450436")
         mRewardedVideoAd=MobileAds.getRewardedVideoAdInstance(this)
         mRewardedVideoAd.rewardedVideoAdListener=this
         loadRewardedVideoAd()
@@ -147,7 +147,7 @@ class WebViewActivity : AppCompatActivity(),RewardedVideoAdListener {
 
     private fun loadRewardedVideoAd(){
         if(!mRewardedVideoAd.isLoaded){
-            mRewardedVideoAd.loadAd("ca-app-pub-3940256099942544/5224354917", AdRequest.Builder().build())
+            mRewardedVideoAd.loadAd("ca-app-pub-5918143946387420/4522450436", AdRequest.Builder().build())
         }
     }
 
@@ -180,7 +180,7 @@ class WebViewActivity : AppCompatActivity(),RewardedVideoAdListener {
     }
 
     override fun onRewardedVideoAdFailedToLoad(p0: Int) {
-        TODO("Not yet implemented")
+        loadRewardedVideoAd()
     }
 
     override fun onPause() {

@@ -43,7 +43,7 @@ class QuizFragment : Fragment() {
 
         val view = inflater.inflate(R.layout.fragment_quiz, container, false)
 
-        MobileAds.initialize(context,"ca-app-pub-3940256099942544/6300978111")
+        MobileAds.initialize(context,"ca-app-pub-5918143946387420/2044460908")
         val fqadview=view.findViewById(R.id.fqadView) as AdView
         val fqadRequest= AdRequest.Builder().build()
         fqadview.loadAd(fqadRequest)

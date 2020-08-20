@@ -39,7 +39,7 @@ class SocialFragment : Fragment() {
             startActivity(i)
         }
 
-        MobileAds.initialize(context,"ca-app-pub-3940256099942544/6300978111")
+        MobileAds.initialize(context,"ca-app-pub-5918143946387420/1599121232")
         val fsadview=view.findViewById(R.id.fsadView) as AdView
         val fsadRequest= AdRequest.Builder().build()
         fsadview.loadAd(fsadRequest)

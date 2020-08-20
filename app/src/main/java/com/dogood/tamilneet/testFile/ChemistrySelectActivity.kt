@@ -23,7 +23,7 @@ class ChemistrySelectActivity : AppCompatActivity() {
 
 
 
-        MobileAds.initialize(this,"ca-app-pub-3940256099942544/6300978111")
+        MobileAds.initialize(this,"ca-app-pub-5918143946387420/8248290063")
         val chsadview=findViewById(R.id.chsadView) as AdView
         val adRequest= AdRequest.Builder().build()
         chsadview.loadAd(adRequest)
@@ -35,7 +35,7 @@ class ChemistrySelectActivity : AppCompatActivity() {
         })
 
         mInterstitialAd = InterstitialAd(this)
-        mInterstitialAd.adUnitId = "ca-app-pub-3940256099942544/1033173712"
+        mInterstitialAd.adUnitId = "ca-app-pub-5918143946387420/1108166646"
         mInterstitialAd.loadAd(AdRequest.Builder().build())
 
         mInterstitialAd.adListener=object : AdListener(){
@@ -63,7 +63,9 @@ class ChemistrySelectActivity : AppCompatActivity() {
         }else{
             val i = Intent(applicationContext,CommonTestActivity::class.java)
             i.putExtra("subject","chemistry")
+            i.putExtra("num",num_of_questions)
             startActivity(i)
+            mInterstitialAd.loadAd(AdRequest.Builder().build())
         }
     }
 }

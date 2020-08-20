@@ -38,7 +38,7 @@ class PhysicsMaterial : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_physics_material)
 
-        MobileAds.initialize(this,"ca-app-pub-3940256099942544/6300978111")
+        MobileAds.initialize(this,"ca-app-pub-5918143946387420/3695511976")
         val pmadview=findViewById(R.id.pmadView) as AdView
         val adrequest=AdRequest.Builder().build()
         pmadview.loadAd(adrequest)

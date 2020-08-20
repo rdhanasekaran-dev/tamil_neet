@@ -16,7 +16,7 @@ class LinksSubjectActivity : AppCompatActivity() {
 
         var link_type=intent.getStringExtra("link_type")
 
-        MobileAds.initialize(this,"ca-app-pub-3940256099942544/6300978111")
+        MobileAds.initialize(this,"ca-app-pub-5918143946387420/5432099623")
         val lsadview=findViewById(R.id.lssmadView) as AdView
         val lsadrequest= AdRequest.Builder().build()
         lsadview.loadAd(lsadrequest)

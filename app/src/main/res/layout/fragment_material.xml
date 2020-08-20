@@ -449,7 +449,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_alignParentBottom="true"
                         ads:adSize="BANNER"
-                        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+                        ads:adUnitId="ca-app-pub-5918143946387420/6438167338">
                     </com.google.android.gms.ads.AdView>
                     <LinearLayout
                         android:layout_marginBottom="5dp"
@@ -478,6 +478,7 @@
                         android:layout_marginTop="20dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="20dp"
                         android:layout_width="match_parent"
                         android:elevation="8dp"
                         app:cardElevation="8dp"
@@ -590,8 +591,21 @@
                                 android:textColor="#FFFFFF"/>
                         </RelativeLayout>
                     </androidx.cardview.widget.CardView>
+                    <com.google.android.gms.ads.AdView
+                        android:layout_marginBottom="10dp"
+                        android:layout_gravity="center_horizontal"
+                        xmlns:ads="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/madView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        ads:adSize="BANNER"
+                        ads:adUnitId="ca-app-pub-5918143946387420/2410350465">
+                    </com.google.android.gms.ads.AdView>
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
+                        android:layout_marginBottom="20dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginLeft="10dp"
@@ -703,6 +717,18 @@
                                 android:textColor="#FFFFFF"/>
                         </RelativeLayout>
                     </androidx.cardview.widget.CardView>
+                    <com.google.android.gms.ads.AdView
+                        android:layout_marginBottom="10dp"
+                        android:layout_gravity="center_horizontal"
+                        xmlns:ads="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/madView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        ads:adSize="BANNER"
+                        ads:adUnitId="ca-app-pub-5918143946387420/1288840488">
+                    </com.google.android.gms.ads.AdView>
                     <androidx.cardview.widget.CardView
                         android:layout_marginBottom="20dp"
                         android:layout_width="match_parent"
@@ -817,6 +843,18 @@
                                 android:textColor="#FFFFFF"/>
                         </RelativeLayout>
                     </androidx.cardview.widget.CardView>
+                    <com.google.android.gms.ads.AdView
+                        android:layout_marginBottom="10dp"
+                        android:layout_gravity="center_horizontal"
+                        xmlns:ads="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/madView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        ads:adSize="BANNER"
+                        ads:adUnitId="ca-app-pub-5918143946387420/7475916838">
+                    </com.google.android.gms.ads.AdView>
 
                 </LinearLayout>
                 <LinearLayout
@@ -900,7 +938,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_alignParentBottom="true"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+                ads:adUnitId="ca-app-pub-5918143946387420/2053582653">
             </com.google.android.gms.ads.AdView>
 
         </LinearLayout>

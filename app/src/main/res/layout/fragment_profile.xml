@@ -15,6 +15,7 @@
             android:layout_height="wrap_content">
 
     <LinearLayout
+        android:gravity="center_horizontal"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -90,8 +91,6 @@
             </androidx.cardview.widget.CardView>
 
             <Button
-                android:layout_marginRight="30dp"
-                android:layout_gravity="right"
                 android:layout_marginBottom="20dp"
                 android:id="@+id/signout"
                 android:layout_width="wrap_content"
@@ -103,19 +102,7 @@
                 android:textSize="18sp"
                 android:textColor="#FFFFFF"/>
 
-            <com.google.android.gms.ads.AdView
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="0dp"
-                android:layout_gravity="center_horizontal"
-                xmlns:ads="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/pfadView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_alignParentBottom="true"
-                ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
-            </com.google.android.gms.ads.AdView>
+
 
         </LinearLayout>
     </LinearLayout>
@@ -127,12 +114,24 @@
         android:id="@+id/ppolicy"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="100dp"
         android:layout_marginRight="20dp"
         android:src="@drawable/ic_action_privacy_policy"
         app:maxImageSize="50dp"
         />
 
-
+    <com.google.android.gms.ads.AdView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="0dp"
+        android:layout_gravity="center_horizontal"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pfadView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5918143946387420/3460542407">
+    </com.google.android.gms.ads.AdView>
 
 </RelativeLayout>

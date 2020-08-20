@@ -39,13 +39,13 @@ class BiologySyllabus : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_biology_syllabus)
 
-        MobileAds.initialize(this,"ca-app-pub-3940256099942544/6300978111")
+        MobileAds.initialize(this,"ca-app-pub-5918143946387420/8181551892")
         val bs2adview=findViewById(R.id.bs2adView) as AdView
         val ad2request= AdRequest.Builder().build()
         bs2adview.loadAd(ad2request)
 
         mInterstitialAd = InterstitialAd(this)
-        mInterstitialAd.adUnitId = "ca-app-pub-3940256099942544/1033173712"
+        mInterstitialAd.adUnitId = "ca-app-pub-5918143946387420/5936987344"
         mInterstitialAd.loadAd(AdRequest.Builder().build())
 
         mInterstitialAd.adListener=object : AdListener(){

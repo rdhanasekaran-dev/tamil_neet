@@ -42,7 +42,7 @@ class BiologyMaterial : AppCompatActivity() {
         val back=findViewById(R.id.back) as LinearLayout
 
 
-        MobileAds.initialize(this,"ca-app-pub-3940256099942544/6300978111")
+        MobileAds.initialize(this,"ca-app-pub-5918143946387420/4433878576")
         val bmadview=findViewById(R.id.bmadView) as AdView
         val adrequest= AdRequest.Builder().build()
         bmadview.loadAd(adrequest)

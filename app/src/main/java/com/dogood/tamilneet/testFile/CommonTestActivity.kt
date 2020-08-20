@@ -77,13 +77,13 @@ class CommonTestActivity : AppCompatActivity() {
         setContentView(R.layout.activity_common_test)
 
 
-        MobileAds.initialize(this,"ca-app-pub-3940256099942544/6300978111")
+        MobileAds.initialize(this,"ca-app-pub-5918143946387420/2038104936")
         val ctadview=findViewById(R.id.ctadView) as AdView
         val adRequest= AdRequest.Builder().build()
         ctadview.loadAd(adRequest)
 
         mInterstitialAd = InterstitialAd(this)
-        mInterstitialAd.adUnitId = "ca-app-pub-3940256099942544/1033173712"
+        mInterstitialAd.adUnitId = "ca-app-pub-5918143946387420/1654961556"
         mInterstitialAd.loadAd(AdRequest.Builder().build())
 
         mInterstitialAd.adListener=object : AdListener(){
@@ -160,10 +160,6 @@ class CommonTestActivity : AppCompatActivity() {
             num_of_questions=30
         }else if(num.equals("50 கேள்விகள்")){
             num_of_questions=50
-        }else if(num.equals("100 கேள்விகள்")){
-            num_of_questions=100
-        }else if(num.equals("150 கேள்விகள்")){
-            num_of_questions=150
         }
 
         if(subject_selected.equals("physics")){

@@ -1,6 +1,9 @@
 package com.dogood.tamilneet
 
+import android.content.Context
 import android.content.Intent
+import android.net.ConnectivityManager
+import android.net.NetworkInfo
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -26,6 +29,7 @@ class HomeActivity : AppCompatActivity() {
 
         isLoggedIn()
         displayName()
+
 
         val adapter=MyViewPagerAdapter(supportFragmentManager)
 

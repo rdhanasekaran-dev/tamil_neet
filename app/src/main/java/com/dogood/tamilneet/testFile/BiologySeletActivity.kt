@@ -22,7 +22,7 @@ class BiologySeletActivity : AppCompatActivity() {
         val start=findViewById(R.id.start) as Button
 
 
-        MobileAds.initialize(this,"ca-app-pub-3940256099942544/6300978111")
+        MobileAds.initialize(this,"ca-app-pub-5918143946387420/3446555378")
         val bisadview=findViewById(R.id.bisadView) as AdView
         val adRequest= AdRequest.Builder().build()
         bisadview.loadAd(adRequest)
@@ -34,7 +34,7 @@ class BiologySeletActivity : AppCompatActivity() {
         })
 
         mInterstitialAd = InterstitialAd(this)
-        mInterstitialAd.adUnitId = "ca-app-pub-3940256099942544/1033173712"
+        mInterstitialAd.adUnitId = "ca-app-pub-5918143946387420/9655357613"
         mInterstitialAd.loadAd(AdRequest.Builder().build())
 
         mInterstitialAd.adListener=object : AdListener(){
@@ -62,7 +62,9 @@ class BiologySeletActivity : AppCompatActivity() {
         }else{
             val i = Intent(applicationContext,CommonTestActivity::class.java)
             i.putExtra("subject","biology")
+            i.putExtra("num",num_of_questions)
             startActivity(i)
+            mInterstitialAd.loadAd(AdRequest.Builder().build())
         }
     }
 }

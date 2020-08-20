@@ -41,15 +41,30 @@ class MaterialFragment : Fragment() {
         val view=inflater.inflate(R.layout.fragment_material, container, false)
 
 
-        MobileAds.initialize(context,"ca-app-pub-3940256099942544/6300978111")
+        MobileAds.initialize(context,"ca-app-pub-5918143946387420/2053582653")
         val madview=view.findViewById(R.id.madView) as AdView
         val adRequest=AdRequest.Builder().build()
         madview.loadAd(adRequest)
 
-        MobileAds.initialize(context,"ca-app-pub-3940256099942544/6300978111")
+        MobileAds.initialize(context,"ca-app-pub-5918143946387420/6438167338")
         val madview1=view.findViewById(R.id.madView1) as AdView
         val adRequest1=AdRequest.Builder().build()
         madview1.loadAd(adRequest1)
+
+        MobileAds.initialize(context,"ca-app-pub-5918143946387420/2410350465")
+        val madview2=view.findViewById(R.id.madView2) as AdView
+        val adRequest2=AdRequest.Builder().build()
+        madview2.loadAd(adRequest2)
+
+        MobileAds.initialize(context,"ca-app-pub-5918143946387420/1288840488")
+        val madview3=view.findViewById(R.id.madView3) as AdView
+        val adRequest3=AdRequest.Builder().build()
+        madview3.loadAd(adRequest3)
+
+        MobileAds.initialize(context,"ca-app-pub-5918143946387420/7475916838")
+        val madview4=view.findViewById(R.id.madView4) as AdView
+        val adRequest4=AdRequest.Builder().build()
+        madview4.loadAd(adRequest4)
 
 
         val phyMat =view.findViewById(R.id.phyMat) as RelativeLayout

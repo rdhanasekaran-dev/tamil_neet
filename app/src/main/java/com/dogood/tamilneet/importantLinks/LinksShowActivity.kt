@@ -35,7 +35,7 @@ class LinksShowActivity : AppCompatActivity() {
         setContentView(R.layout.activity_links_show)
 
 
-        MobileAds.initialize(this,"ca-app-pub-3940256099942544/6300978111")
+        MobileAds.initialize(this,"ca-app-pub-5918143946387420/7483547891")
         val lsadview=findViewById(R.id.lsadView) as AdView
         val adrequest= AdRequest.Builder().build()
         lsadview.loadAd(adrequest)

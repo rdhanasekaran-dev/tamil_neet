@@ -70,7 +70,7 @@
                 android:fontFamily="@font/asul"
                 />
             <RadioGroup
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="50dp"
                 android:id="@+id/cs_radio_group"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -123,38 +123,6 @@
                     android:paddingRight="20dp"
                     android:gravity="center_vertical"
                     android:textColor="#000000" />
-                <RadioButton
-                    android:id="@+id/cs_radio_button4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:checked="false"
-                    android:fontFamily="@font/asul"
-                    android:text="100 கேள்விகள்"
-                    android:textSize="11sp"
-                    android:layout_marginLeft="50dp"
-                    android:layout_marginRight="10dp"
-                    android:paddingTop="15dp"
-                    android:paddingBottom="15dp"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="20dp"
-                    android:gravity="center_vertical"
-                    android:textColor="#000000" />
-                <RadioButton
-                    android:id="@+id/cs_radio_button5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:checked="false"
-                    android:fontFamily="@font/asul"
-                    android:text="150 கேள்விகள்"
-                    android:textSize="11sp"
-                    android:layout_marginLeft="50dp"
-                    android:layout_marginRight="10dp"
-                    android:paddingTop="15dp"
-                    android:paddingBottom="15dp"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="20dp"
-                    android:gravity="center_vertical"
-                    android:textColor="#000000" />
             </RadioGroup>
             <Button
                 android:id="@+id/start"
@@ -163,7 +131,7 @@
                 android:theme="@style/Widget.MaterialComponents.Button"
                 android:layout_marginLeft="75dp"
                 android:layout_marginRight="75dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="50dp"
                 android:text="தொடங்கு"
                 android:textAllCaps="false"
                 android:textSize="14sp"
@@ -182,7 +150,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        ads:adUnitId="ca-app-pub-5918143946387420/8248290063">
     </com.google.android.gms.ads.AdView>
 
 </RelativeLayout>
